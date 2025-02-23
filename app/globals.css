@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ad7d67;
+  --primary-hover: #a47864;
+  --background: #ffffff;
+  --foreground: #323232;
+  --foreground-hover: #3e3d3d;
+  --border: #e7e7e7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+@layer utilities {
+  @layer utilities {
+    .text-outline {
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #a47864;
+    }
+  }
+}
